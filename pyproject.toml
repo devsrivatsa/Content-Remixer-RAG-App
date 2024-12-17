@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llm-engineers-handbook"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.8,<3.13"
+zenml = "^0.68.1"
+pymongo = "^4.10.1"
+loguru = "^0.7.2"
+tqdm = "^4.67.0"
+langchain = "^0.3.8"
+sentence-transformers = "^3.3.1"
+qdrant-client = "^1.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

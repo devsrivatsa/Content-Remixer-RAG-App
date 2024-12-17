@@ -1,0 +1,44 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting comet-ml
+  Downloading comet_ml-3.47.4-py3-none-any.whl (709 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 709.9/709.9 KB 7.5 MB/s eta 0:00:00
+Requirement already satisfied: wrapt>=1.11.2 in /home/srivatsa/.local/lib/python3.10/site-packages (from comet-ml) (1.16.0)
+Collecting wurlitzer>=1.0.2
+  Downloading wurlitzer-3.1.1-py3-none-any.whl (8.6 kB)
+Collecting dulwich!=0.20.33,>=0.20.6
+  Downloading dulwich-0.22.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (981 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 981.8/981.8 KB 14.7 MB/s eta 0:00:00
+Requirement already satisfied: requests>=2.18.4 in /home/srivatsa/.local/lib/python3.10/site-packages (from comet-ml) (2.32.3)
+Collecting everett[ini]<3.2.0,>=1.0.1
+  Downloading everett-3.1.0-py2.py3-none-any.whl (35 kB)
+Requirement already satisfied: requests-toolbelt>=0.8.0 in /usr/lib/python3/dist-packages (from comet-ml) (0.9.1)
+Collecting simplejson
+  Downloading simplejson-3.19.3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (137 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.9/137.9 KB 15.4 MB/s eta 0:00:00
+Collecting python-box<7.0.0
+  Downloading python_box-6.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 30.9 MB/s eta 0:00:00
+Requirement already satisfied: psutil>=5.6.3 in /home/srivatsa/.local/lib/python3.10/site-packages (from comet-ml) (5.9.8)
+Collecting semantic-version>=2.8.0
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting sentry-sdk>=1.1.0
+  Downloading sentry_sdk-2.19.2-py2.py3-none-any.whl (322 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 322.9/322.9 KB 24.6 MB/s eta 0:00:00
+Requirement already satisfied: jsonschema!=3.1.0,>=2.6.0 in /home/srivatsa/.local/lib/python3.10/site-packages (from comet-ml) (4.23.0)
+Requirement already satisfied: rich>=13.3.2 in /home/srivatsa/.local/lib/python3.10/site-packages (from comet-ml) (13.7.1)
+Requirement already satisfied: urllib3>=1.21.1 in /usr/lib/python3/dist-packages (from comet-ml) (1.26.5)
+Requirement already satisfied: configobj in /usr/lib/python3/dist-packages (from everett[ini]<3.2.0,>=1.0.1->comet-ml) (5.0.6)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /home/srivatsa/.local/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml) (2024.10.1)
+Requirement already satisfied: rpds-py>=0.7.1 in /home/srivatsa/.local/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml) (0.20.0)
+Requirement already satisfied: attrs>=22.2.0 in /home/srivatsa/.local/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml) (23.2.0)
+Requirement already satisfied: referencing>=0.28.4 in /home/srivatsa/.local/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml) (0.35.1)
+Requirement already satisfied: certifi>=2017.4.17 in /home/srivatsa/.local/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml) (2024.6.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/lib/python3/dist-packages (from requests>=2.18.4->comet-ml) (3.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/srivatsa/.local/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml) (3.2.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /home/srivatsa/.local/lib/python3.10/site-packages (from rich>=13.3.2->comet-ml) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/srivatsa/.local/lib/python3.10/site-packages (from rich>=13.3.2->comet-ml) (2.18.0)
+Collecting urllib3>=1.21.1
+  Using cached urllib3-2.2.3-py3-none-any.whl (126 kB)
+Requirement already satisfied: mdurl~=0.1 in /home/srivatsa/.local/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich>=13.3.2->comet-ml) (0.1.2)
+Installing collected packages: everett, wurlitzer, urllib3, simplejson, semantic-version, python-box, sentry-sdk, dulwich, comet-ml
+Successfully installed comet-ml-3.47.4 dulwich-0.22.6 everett-3.1.0 python-box-6.1.0 semantic-version-2.10.0 sentry-sdk-2.19.2 simplejson-3.19.3 urllib3-2.2.3 wurlitzer-3.1.1
