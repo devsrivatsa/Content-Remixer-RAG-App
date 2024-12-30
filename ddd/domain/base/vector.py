@@ -11,7 +11,7 @@ from qdrant_client.http import exceptions
 from qdrant_client.http.models import Distance, VectorParams
 from qdrant_client.models import CollectionInfo, PointStruct, Record
 
-from ddd.application.networks.embeddings import EmbeddingModelSingleton
+from ddd.application.nn.embeddings import EmbeddingModelSingleton
 from ddd.domain.exceptions import ImproperlyConfigured
 from ddd.domain.types import DataCategory
 from ddd.infrastructure.db.qdrant import connection

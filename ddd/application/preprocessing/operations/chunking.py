@@ -1,6 +1,6 @@
 import re
 from langchain.text_splitter  import RecursiveCharacterTextSplitter, SentenceTransformersTokenTextSplitter
-from ddd.application.networks import EmbeddingModelSingleton
+from ddd.application.nn import EmbeddingModelSingleton
 
 embedding_model = EmbeddingModelSingleton()
 

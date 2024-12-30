@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Generic, TypeVar, cast
 
-from ddd.application.networks import EmbeddingModelSingleton
+from ddd.application.nn import EmbeddingModelSingleton
 from ddd.domain.chunks import (
     Chunk,
     PostChunk,
