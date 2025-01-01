@@ -1,5 +1,5 @@
 import opik
-from dddd.application.nn import CrossEncoderModelSingleton
+from ddd.application.nn import CrossEncoderModelSingleton
 from ddd.domain.embedded_chunks import EmbeddedChunk
 from ddd.domain.queries import Query
 from .base import RAGStep
